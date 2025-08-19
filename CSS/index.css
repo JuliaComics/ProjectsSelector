@@ -1,0 +1,23 @@
+*{  margin: 0;
+    padding: 0;}
+
+#cabecalho{ height: 15vh;
+            width: 100vw;}
+
+.corLightPink {background-image: linear-gradient(to right, #ac1e6e, #c73157, #d3503f, #d37229, #c7931d)!important;}
+
+.corLightPink a{color: rgb(94, 6, 72);}
+
+.corLightPink a:hover{color: rgb(179, 69, 18);}
+
+.corLightPink a:active{ color: darkred;}
+
+body{overflow-x:hidden ;}
+
+#pagina1 {  width: 100vw;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex: 1;}
