@@ -10,6 +10,8 @@
 
 .corLightPink a:hover{color: rgb(179, 69, 18);}
 
+.corLightPink a:focus{ color: orangered;}
+
 .corLightPink a:active{ color: darkred;}
 
 body{overflow-x:hidden ;}
