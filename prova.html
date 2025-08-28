@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS DO BOOTSTRAP -->
+    <link rel="stylesheet" href="./src/framework/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <!--CSS EXTERNO-->
+    <link rel="stylesheet" href="./CSS/index.css">
+    <!-- FONT AWESOME BIBLIOTECA -->
+    <script src="https://kit.fontawesome.com/42c04c0a9c.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            padding: 0;
+        }
+
+        .carousel {
+            overflow: hidden;
+        }
+
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item img {
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .carousel-tem img {
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .body {
+            padding-top: 70px;
+        }
+
+        .navback {
+            background-image: linear-gradient(90deg, rgba(61, 67, 71, 1) 0%, rgba(131, 143, 138, 1) 50%, rgba(59, 59, 49, 1) 100%);
+        }
+
+        .footer {
+            background-color: linear-gradient(90deg, rgba(61, 67, 71, 1) 0%, rgba(131, 143, 138, 1) 50%, rgba(59, 59, 49, 1) 100%);
+        }
+    </style>
+</head>
+
+<body style="background-color: lightslategray;">
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navback" style="text-align: center;">
+            <div class="container-fluid" style="justify-content: center;align-items: center">
+                <a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: whitesmoke;"
+                    class="navbar-brand" href="#">Autocar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./carros.html"
+                            style="color: whitesmoke;">Carros</a>
+                        <a class="nav-link active" aria-current="page" href="./sobreaempresa.html"
+                            style="color: whitesmoke;">Sobre a
+                            empresa</a>
+                        <a class="nav-link active" aria-current="page" href="./soliciteumorcamento.html"
+                            style="color: whitesmoke;">Solicite um
+                            orçamento</a>
+                        <a class="nav-link active" aria-current="page" href="./jaragua/Anotação 2025-08-28 133544.png"
+                            style="color: whitesmoke;">Localização</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <!-- CONTEÚDO COM AS SECTIONS DA PÁGINA -->
+    <main>
+        <section class="container" style=" height: 100%; width: 100%;">
+            <div id="carouselExampleAutoplaying d-flex justify-content-center align-items-center" class="carousel slide"
+                data-bs-ride="carousel" style="margin-left: 30vw;margin-top: 10vh;">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://media1.tenor.com/m/5nURGepD-o8AAAAd/aston-martin-valkyrie-hypercar.gif"
+                            class="d-block w-100 h-100" alt="..." style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://www.webmotors.com.br/wp-content/uploads/2018/02/24081043/2-forgiato-aventador-pink-sky-s202-6_copy.jpg"
+                            class="d-block w-100 h-100" alt="..." style="height: 100%;width: 100%;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://automotivoshopping.com.br/wp-content/uploads/2022/03/foto05emp-201-sf90-b10.webp"
+                            class="d-block w-100 -100" alt="..." style="height: 100%;width: 100%;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+        </section>
+
+        <section>
+
+            <div
+                style="height: 50vh; background-color: rgb(37, 37, 37); display: flex; flex-direction:column; justify-content: center; align-items: center;">
+
+                <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: whitesmoke;">
+                    Exclusividade sem limites</h1>
+                <h5
+                    style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(75, 124, 170);">
+                    Possua o inédito, conquiste o incomparável</h5>
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif;color: whitesmoke;">No Seu AutoCar,
+                    oferecemos veículos raros e exclusivos, escolhidos para quem valoriza autenticidade.</p>
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif;color: whitesmoke;">Nossos clientes
+                    encontram não apenas carros, mas verdadeiras obras de arte sobre rodas, cada modelo carregando
+                    design, potência e história incomparáveis.</p>
+                <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: whitesmoke;">
+                    Experiência Premium</h1>
+                <h5
+                    style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: rgb(75, 124, 170);">
+                    Mais do que comprar, viver a paixão automotiva</h5>
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif;color: whitesmoke;">Cada aquisição é
+                    acompanhada de uma experiência única: atendimento personalizado, consultoria especializada e suporte
+                    completo.</p>
+                <p style="font-family: Georgia, 'Times New Roman', Times, serif;color: whitesmoke;">Queremos que cada
+                    cliente se sinta parte de um universo reservado para amantes de carros únicos, onde cada detalhe é
+                    pensado para surpreender.</p>
+
+
+
+            </div>
+        </section>
+
+        <section>
+
+            <div class="container-fluid mt-5 d-flex justify-content-center align-items-center" style="width: 100vw;">
+
+                <div class="row">
+
+                    <div class="col d-flex justify-content-center align-items-center">
+
+                        <div class="card" style="width: 34rem;">
+                            <img src="https://i.pinimg.com/originals/e9/ed/0e/e9ed0e001ed01e6741fa927beb82aad0.gif"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Carros</h5>
+                                <p class="card-text">Explore nossa seleção exclusiva de veículos. Modelos raros e de
+                                    alto desempenho, projetados para quem busca o ápice da
+                                    sofisticação e da inovação automotiva.</p>
+                                <a href="./carros.html" class="btn btn-secondary">Clique aqui</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col d-flex justify-content-center align-items-center">
+
+                        <div class="card" style="width: 33rem;">
+                            <img src="https://conteudo.imguol.com.br/c/entretenimento/18/2022/07/04/concessionaria-f1rst-motors-em-dubai-1656945205320_v2_900x506.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sobre a Empresa</h5>
+                                <p class="card-text">Na AutoCar, tradição, excelência e inovação se unem para entregar
+                                    uma experiência única em mobilidade premium.
+                                    Conheça nossa trajetória e entenda por que somos referência no mercado automotivo de
+                                    alto padrão.</p>
+                                <a href="./sobreaempresa.html" class="btn btn-secondary">Clique aqui</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col d-flex justify-content-center align-items-center">
+
+                        <div class="card" style="width: 33rem;">
+                            <img src="https://img.freepik.com/fotos-premium/vendedor-de-carros-fechando-negocio-e-vendendo-um-carro-novo-para-outro-homem-apertando-a-mao-do-novo-acordo_146482-15219.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Solicite um orçamento</h5>
+                                <p class="card-text">Solicite agora um orçamento personalizado.
+                                    Preencha o formulário e receba sua proposta com agilidade e transparência.
+                                </p>
+                                <a href="./soliciteumorcamento.html" class="btn btn-secondary">Clique aqui</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- RODAPE -->
+    <footer>
+
+
+        <div style="width: 100vw;height: 20vh; margin-top: 10vh;"
+            class="corLightPink d-flex justify-content-center align-items-center">
+
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./prova.html">Ínicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./carros.html">Carros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="./sobreaempresa.html">Sobre a empresa</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a class="nav-link " aria-current="page" href="./soliciteumorcamento.html">Solicite um orçamento</a>
+                </li>
+                <li class="nav-item"></li>
+                    <a class="nav-link " aria-current="page" href="./jaragua/Anotação 2025-08-28 133544.png">Localização</a>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </footer>
+
+
+    <script src="./SRC/framework/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
